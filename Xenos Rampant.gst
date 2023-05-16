@@ -1683,7 +1683,7 @@ unchanged. This cannot be combined with Increased Squad Size.</description>
         <categoryLink id="9f97-6b0c-b358-9c24" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
+        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b7e-fbf5-fca5-4736" name="Primitive MIssiles" hidden="false" collective="false" import="true" type="upgrade">

@@ -790,7 +790,11 @@
             <entryLink id="a941-f9ed-b9d1-f06d" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="5825-8645-0c6c-db98" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
             <entryLink id="0920-aa78-ac35-569a" name="Armoured" hidden="false" collective="false" import="true" targetId="6f77-c74d-d518-841f" type="selectionEntry"/>
-            <entryLink id="2c29-6054-2094-09f0" name="Mob" hidden="false" collective="false" import="true" targetId="fc26-3a30-14c2-ef25" type="selectionEntry"/>
+            <entryLink id="2c29-6054-2094-09f0" name="Mob" hidden="false" collective="false" import="true" targetId="3ed2-d18e-4c28-72e9" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="aaf9-d1ec-17d1-4ca3" name="Primitive MIssiles" hidden="false" collective="false" import="true" targetId="0b7e-fbf5-fca5-4736" type="selectionEntry"/>
             <entryLink id="9f4c-53f8-8b5b-a6a0" name="Savages" hidden="false" collective="false" import="true" targetId="c132-afaa-449a-04ee" type="selectionEntry"/>
             <entryLink id="ca81-59c6-354a-3f80" name="Young Warriors" hidden="false" collective="false" import="true" targetId="e82e-1963-d587-3b12" type="selectionEntry"/>
@@ -862,7 +866,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="ff11-607a-1cc0-f934" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="0802-ef84-e67c-3c76" name="Mob" hidden="false" collective="false" import="true" targetId="fc26-3a30-14c2-ef25" type="selectionEntry"/>
+            <entryLink id="0802-ef84-e67c-3c76" name="Mob" hidden="false" collective="false" import="true" targetId="3ed2-d18e-4c28-72e9" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="18f0-6aa9-3520-4c8a" name="Ravenous Horde" hidden="false" collective="false" import="true" targetId="d4a1-13a4-646e-7315" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1669,7 +1677,7 @@
         <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc26-3a30-14c2-ef25" name="Mob" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ed2-d18e-4c28-72e9" name="Mob" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be63-d557-9076-6c63" type="max"/>
       </constraints>
@@ -1682,9 +1690,6 @@ unchanged. This cannot be combined with Increased Squad Size.</description>
       <categoryLinks>
         <categoryLink id="9f97-6b0c-b358-9c24" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
-      <costs>
-        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="0b7e-fbf5-fca5-4736" name="Primitive MIssiles" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>

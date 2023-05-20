@@ -284,6 +284,7 @@
             <entryLink id="8afd-540f-42b2-6baf" name="Unstable" hidden="false" collective="false" import="true" targetId="be68-3cf3-c9c1-5575" type="selectionEntry"/>
             <entryLink id="96ce-37b0-285a-ca1b" name="Force Field" hidden="false" collective="false" import="true" targetId="0ee9-d7f1-2b16-4487" type="selectionEntryGroup"/>
             <entryLink id="efe3-1231-a6d6-b3df" name="Psychic" hidden="false" collective="false" import="true" targetId="f3d3-36c0-3195-8852" type="selectionEntryGroup"/>
+            <entryLink id="fac3-d8d0-9774-bff6" name="Stabalised Weaponry" hidden="false" collective="false" import="true" targetId="d8fa-3693-e0c2-075a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1690,6 +1691,9 @@ unchanged. This cannot be combined with Increased Squad Size.</description>
       <categoryLinks>
         <categoryLink id="9f97-6b0c-b358-9c24" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0b7e-fbf5-fca5-4736" name="Primitive MIssiles" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2250,13 +2254,6 @@ If the Special Insertion unit is a vehicle with the Transport ability, it may be
       </costs>
     </selectionEntry>
     <selectionEntry id="d8fa-3693-e0c2-075a" name="Stabalised Weaponry" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b2e-5845-2ad1-7eb9" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="157b-c00d-67db-a9f4" type="max"/>
       </constraints>

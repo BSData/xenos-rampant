@@ -895,6 +895,28 @@
     <selectionEntry id="a2f9-32c6-2f77-9c98" name="Greater Xenomorph" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="99a5-c7c8-b37b-57e8" name="Greater Xenomorph" hidden="false" typeId="c7d1-b422-0ae4-584d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="019b-e521-9a72-4cc5" value="6">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0a72-c09d-f1cc-ea9f" value="5">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f3cf-d493-3494-291a" value="18">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f3cf-d493-3494-291a" value="12">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47e2-8874-2fb2-b03d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">5</characteristic>
             <characteristic name="Move" typeId="e7d5-3a07-e8dc-b040">Free (6+)</characteristic>
@@ -913,7 +935,15 @@
       <infoLinks>
         <infoLink id="f428-2538-943a-1bac" name="Open Order" hidden="false" targetId="a9c0-e16c-6280-7554" type="rule"/>
         <infoLink id="4e2c-8866-2218-bd30" name="Ranger" hidden="false" targetId="d1c7-f498-188d-1ec4" type="rule"/>
-        <infoLink id="e5dd-421b-0d2d-61d4" name="Wild Charge" hidden="false" targetId="95a8-510c-96f2-bd4a" type="rule"/>
+        <infoLink id="e5dd-421b-0d2d-61d4" name="Wild Charge" hidden="false" targetId="95a8-510c-96f2-bd4a" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8d7-a828-67e5-69ab" name="New CategoryLink" hidden="false" targetId="6b2e-5845-2ad1-7eb9" primary="true"/>
@@ -924,8 +954,60 @@
             <entryLink id="9783-008b-4661-fdef" name="Demolitions" hidden="false" collective="false" import="true" targetId="538c-c619-84a4-f1e1" type="selectionEntry"/>
             <entryLink id="b001-1e90-3837-a83d" name="Cunning" hidden="false" collective="false" import="true" targetId="1da3-6d74-45f3-8064" type="selectionEntry"/>
             <entryLink id="0e81-bbc1-d9b0-52f6" name="High-Powered Blades" hidden="false" collective="false" import="true" targetId="936d-a5f8-0c63-e236" type="selectionEntry"/>
-            <entryLink id="455e-efde-af6d-d65e" name="Ponderous" hidden="false" collective="false" import="true" targetId="7b2d-6e5e-e4b0-ec3f" type="selectionEntry"/>
-            <entryLink id="bc7d-98ec-6464-4148" name="Xenomorph Ranged Attack" hidden="false" collective="false" import="true" targetId="da85-117c-d8a0-6b46" type="selectionEntry"/>
+            <entryLink id="455e-efde-af6d-d65e" name="Ponderous" hidden="false" collective="false" import="true" targetId="7b2d-6e5e-e4b0-ec3f" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="649a-9985-f0d6-6e5b" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="bc7d-98ec-6464-4148" name="Xenomorph Ranged Attack" hidden="false" collective="false" import="true" targetId="da85-117c-d8a0-6b46" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="a358-6724-aa24-6fdd" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2d-6e5e-e4b0-ec3f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5c68-c3c9-025a-ba33" name="Area Effect" hidden="true" collective="false" import="true" targetId="d18a-9306-4d98-f1da" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4093-c5c3-19f2-a27c" name="Armour-Piercing" hidden="true" collective="false" import="true" targetId="3ad4-3df4-120c-3783" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7a19-662b-bcb0-334c" name="Close Quarters Doctrine" hidden="true" collective="false" import="true" targetId="47e2-8874-2fb2-b03d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0d8a-915d-3aab-0ec1" name="Anti-Tank" hidden="true" collective="false" import="true" targetId="cbd0-89fc-6551-afdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fdfa-7e93-9170-b847" name="Xenos Rules" hidden="false" collective="false" import="true">
@@ -973,6 +1055,28 @@
     <selectionEntry id="d005-eabe-8a56-8d2d" name="Lesser Xenomorph" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2ebd-b480-70f3-eb10" name="Lesser Xenomorph" hidden="false" typeId="c7d1-b422-0ae4-584d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="019b-e521-9a72-4cc5" value="6">
+              <conditions>
+                <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f3cf-d493-3494-291a" value="18">
+              <conditions>
+                <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0a72-c09d-f1cc-ea9f" value="5">
+              <conditions>
+                <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f3cf-d493-3494-291a" value="12">
+              <conditions>
+                <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47e2-8874-2fb2-b03d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">5</characteristic>
             <characteristic name="Move" typeId="e7d5-3a07-e8dc-b040">Free (6+)</characteristic>
@@ -1003,6 +1107,42 @@
             <entryLink id="c044-48c7-ebb2-325b" name="High-Powered Blades" hidden="false" collective="false" import="true" targetId="936d-a5f8-0c63-e236" type="selectionEntry"/>
             <entryLink id="ffe0-2b90-6732-471c" name="Xenomorph Ranged Attack" hidden="false" collective="false" import="true" targetId="da85-117c-d8a0-6b46" type="selectionEntry"/>
             <entryLink id="0741-365e-a1c6-3f37" name="Swarm" hidden="false" collective="false" import="true" targetId="9de5-d1cd-53f6-47d5" type="selectionEntry"/>
+            <entryLink id="2c23-d000-9789-20b8" name="Anti-Tank" hidden="true" collective="false" import="true" targetId="cbd0-89fc-6551-afdd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="a34a-10a5-843f-e8b4" name="Area Effect" hidden="true" collective="false" import="true" targetId="d18a-9306-4d98-f1da" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="23ab-9568-8ea9-26f3" name="Armour-Piercing" hidden="true" collective="false" import="true" targetId="3ad4-3df4-120c-3783" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3da6-e74c-dd53-c02b" name="Close Quarters Doctrine" hidden="true" collective="false" import="true" targetId="47e2-8874-2fb2-b03d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da85-117c-d8a0-6b46" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="80c3-5199-bc8e-8b06" name="Xenos Rules" hidden="false" collective="false" import="true">

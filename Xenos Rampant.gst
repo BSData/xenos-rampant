@@ -103,6 +103,11 @@
                 <condition field="selections" scope="4348-771b-e1d8-3b1e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="4348-771b-e1d8-3b1e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">6</characteristic>
@@ -224,6 +229,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="451b-c231-1105-bff0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="451b-c231-1105-bff0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -364,6 +374,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="0516-26dd-9483-93dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="0516-26dd-9483-93dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -508,6 +523,11 @@
                 <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">5</characteristic>
@@ -611,6 +631,11 @@
                 <condition field="selections" scope="1c8c-1137-111e-d9aa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="1c8c-1137-111e-d9aa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">-</characteristic>
@@ -707,6 +732,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="44be-0a0a-9be9-7a03" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="44be-0a0a-9be9-7a03" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -829,6 +859,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="8da8-ed63-b0fb-4203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="8da8-ed63-b0fb-4203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -994,6 +1029,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="a2f9-32c6-2f77-9c98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1166,6 +1206,11 @@
                 <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="d005-eabe-8a56-8d2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">5</characteristic>
@@ -1291,6 +1336,11 @@
                 <condition field="selections" scope="023d-7f93-b972-6e6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="023d-7f93-b972-6e6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">6</characteristic>
@@ -1398,6 +1448,11 @@
                 <condition field="selections" scope="4631-4f5e-0aad-6a36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="4631-4f5e-0aad-6a36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">6</characteristic>
@@ -1487,6 +1542,11 @@
             <modifier type="decrement" field="fc53-7100-5462-0ae6" value="1">
               <conditions>
                 <condition field="selections" scope="8b6e-8e37-e801-621c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3039-848d-86ab-84fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="8b6e-8e37-e801-621c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>

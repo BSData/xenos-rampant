@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="2" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bscards.pages.dev" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="3" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bscards.pages.dev" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7d23-9817-3928-633a" name="Core Rulebook"/>
   </publications>
@@ -3235,7 +3235,7 @@ double-4 would result in losing four Strength Points).</description>
       <description>During Attacks (whether Attacking or Defending), count the Armour of the enemy vehicle units as being half their usual value. You may not apply this rule at the same time as High-Powered Blades.</description>
     </rule>
     <rule id="0484-7f48-23ef-af0e" name="High-Powered Blades" hidden="false">
-      <description>During Attacks (whether Attacking or Defending), count the Armour of enemy vehicle units as being half its usual value. This cannot be combined with the effects of High-Powered Blades.</description>
+      <description>During Attacks (whether Attacking or Defending), count the target&apos;s Armour as being one point lower than usual.</description>
     </rule>
     <rule id="1693-b18b-b435-d498" name="Line-Breaker" publicationId="7d23-9817-3928-633a" hidden="false">
       <description>This unit is not slowed by linear obstacles such as barricades, barbed wire, low walls, fences or trench parapets. In the case of obstacles that could plausibly be crushed beneath the vehicle, you can remove an appropriately sized stretch of the obstacle after the unit passes over it.</description>

@@ -140,7 +140,11 @@
             <entryLink id="0410-9f43-76d7-5458" name="Fire Support" hidden="false" collective="false" import="true" targetId="026b-d3dc-1b13-ae0b" type="selectionEntry"/>
             <entryLink id="5fb8-67c4-3697-ac56" name="Guerrillas" hidden="false" collective="false" import="true" targetId="5994-aeaf-dd93-7633" type="selectionEntry"/>
             <entryLink id="b912-d29a-7fcd-7c46" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="fd48-7265-5dfc-8932" type="selectionEntry"/>
-            <entryLink id="195f-8035-285c-e241" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry"/>
+            <entryLink id="195f-8035-285c-e241" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="9579-5d15-1290-d0c4" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="4c97-1512-03e2-0924" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
           </entryLinks>
@@ -412,7 +416,11 @@
             <entryLink id="1a85-4362-2957-ba5f" name="Close Quarters Doctrine" hidden="false" collective="false" import="true" targetId="47e2-8874-2fb2-b03d" type="selectionEntry"/>
             <entryLink id="afd8-f93a-9abf-4cdd" name="Fire Support" hidden="false" collective="false" import="true" targetId="026b-d3dc-1b13-ae0b" type="selectionEntry"/>
             <entryLink id="572d-66ec-8268-2aab" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="fd48-7265-5dfc-8932" type="selectionEntry"/>
-            <entryLink id="549f-fbe5-e847-5c34" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry"/>
+            <entryLink id="549f-fbe5-e847-5c34" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="b674-3b45-8a0f-d4e9" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="4048-d334-9d2e-ffb4" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
           </entryLinks>
@@ -557,7 +565,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="b0a4-43d4-8356-f239" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="2cdf-4b61-480c-eef9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry"/>
+            <entryLink id="2cdf-4b61-480c-eef9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="7527-b4f1-f53d-f557" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="45a7-3db4-4f3f-a9ec" name="Demolitions" hidden="false" collective="false" import="true" targetId="538c-c619-84a4-f1e1" type="selectionEntry"/>
             <entryLink id="7ea8-0b88-b260-7d57" name="Enthusiastic But Untrained" hidden="false" collective="false" import="true" targetId="74d6-2e00-7f50-978f" type="selectionEntry"/>
@@ -892,7 +904,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="aa4a-c848-4cde-932f" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="bff4-c401-8ca4-7fc9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry"/>
+            <entryLink id="bff4-c401-8ca4-7fc9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+              <costs>
+                <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="a941-f9ed-b9d1-f06d" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="5825-8645-0c6c-db98" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
             <entryLink id="0920-aa78-ac35-569a" name="Armoured" hidden="false" collective="false" import="true" targetId="6f77-c74d-d518-841f" type="selectionEntry"/>
@@ -1750,9 +1766,6 @@
       <categoryLinks>
         <categoryLink id="5f77-7daf-88ab-9fae" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
-      <costs>
-        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="bd21-3d32-8148-2f5f" name="Mobile" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>

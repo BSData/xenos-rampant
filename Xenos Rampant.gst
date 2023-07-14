@@ -573,8 +573,24 @@
             <entryLink id="7527-b4f1-f53d-f557" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="45a7-3db4-4f3f-a9ec" name="Demolitions" hidden="false" collective="false" import="true" targetId="538c-c619-84a4-f1e1" type="selectionEntry"/>
             <entryLink id="7ea8-0b88-b260-7d57" name="Enthusiastic But Untrained" hidden="false" collective="false" import="true" targetId="74d6-2e00-7f50-978f" type="selectionEntry"/>
-            <entryLink id="6bf6-f850-401e-7694" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="1d01-c4c2-ff25-7b18" type="selectionEntry"/>
-            <entryLink id="c1ac-cf84-3b81-916a" name="Even Heavier Armour" hidden="false" collective="false" import="true" targetId="5445-0a1b-0da7-64f1" type="selectionEntry"/>
+            <entryLink id="6bf6-f850-401e-7694" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="1d01-c4c2-ff25-7b18" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c1ac-cf84-3b81-916a" name="Even Heavier Armour" hidden="false" collective="false" import="true" targetId="5445-0a1b-0da7-64f1" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d01-c4c2-ff25-7b18" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="b7a4-7eb9-e87d-0072" name="High-Powered Blades" hidden="false" collective="false" import="true" targetId="936d-a5f8-0c63-e236" type="selectionEntry"/>
             <entryLink id="a2b4-fd57-9f0b-0e9c" name="Veteran" hidden="false" collective="false" import="true" targetId="5945-69b1-abbf-843e" type="selectionEntry"/>
           </entryLinks>
@@ -1766,6 +1782,9 @@
       <categoryLinks>
         <categoryLink id="5f77-7daf-88ab-9fae" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bd21-3d32-8148-2f5f" name="Mobile" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>

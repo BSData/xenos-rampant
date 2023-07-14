@@ -934,6 +934,13 @@
         <selectionEntryGroup id="aa4a-c848-4cde-932f" name="Options" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="40f9-9359-ea4d-4dda" name="Increased Squad Size" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="8da8-ed63-b0fb-4203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ed2-d18e-4c28-72e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8771-d6e9-0a39-78f9" type="max"/>
               </constraints>
@@ -955,6 +962,13 @@
             <entryLink id="5825-8645-0c6c-db98" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
             <entryLink id="0920-aa78-ac35-569a" name="Armoured" hidden="false" collective="false" import="true" targetId="6f77-c74d-d518-841f" type="selectionEntry"/>
             <entryLink id="2c29-6054-2094-09f0" name="Mob" hidden="false" collective="false" import="true" targetId="3ed2-d18e-4c28-72e9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="8da8-ed63-b0fb-4203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40f9-9359-ea4d-4dda" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
               </costs>

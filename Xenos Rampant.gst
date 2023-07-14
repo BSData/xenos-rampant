@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="3" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bscards.pages.dev" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="4" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bscards.pages.dev" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7d23-9817-3928-633a" name="Core Rulebook"/>
   </publications>

@@ -1373,6 +1373,11 @@
                 <condition field="selections" scope="023d-7f93-b972-6e6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c39d-4b6f-32a7-4308" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="decrement" field="369e-13bc-7ccc-6701" value="2">
+              <conditions>
+                <condition field="selections" scope="023d-7f93-b972-6e6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e08-7aba-d038-6e26" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">6</characteristic>

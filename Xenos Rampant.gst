@@ -566,6 +566,13 @@
         <selectionEntryGroup id="b0a4-43d4-8356-f239" name="Options" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="9c1b-0217-90dd-dd07" name="Increased Squad Size" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb26-4d5d-007d-15d6" type="max"/>
               </constraints>
@@ -600,6 +607,11 @@
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d01-c4c2-ff25-7b18" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c1b-0217-90dd-dd07" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>

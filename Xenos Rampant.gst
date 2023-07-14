@@ -564,12 +564,25 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b0a4-43d4-8356-f239" name="Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="2cdf-4b61-480c-eef9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="9c1b-0217-90dd-dd07" name="Increased Squad Size" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb26-4d5d-007d-15d6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="63e5-fd48-01c8-a166" name="Increased Squad Size" publicationId="7d23-9817-3928-633a" page="29" hidden="false">
+                  <description>This unit begins the game with 10 Strength Points, and also increases its Attack Value to 3+. This unit’s Defence Value and Shoot Value remain unchanged.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="983e-7be2-d688-95e8" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
               </costs>
-            </entryLink>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
             <entryLink id="7527-b4f1-f53d-f557" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="45a7-3db4-4f3f-a9ec" name="Demolitions" hidden="false" collective="false" import="true" targetId="538c-c619-84a4-f1e1" type="selectionEntry"/>
             <entryLink id="7ea8-0b88-b260-7d57" name="Enthusiastic But Untrained" hidden="false" collective="false" import="true" targetId="74d6-2e00-7f50-978f" type="selectionEntry"/>
@@ -919,12 +932,25 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="aa4a-c848-4cde-932f" name="Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="bff4-c401-8ca4-7fc9" name="Increased Squad Size" hidden="false" collective="false" import="true" targetId="786b-9f4c-467c-d266" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="40f9-9359-ea4d-4dda" name="Increased Squad Size" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8771-d6e9-0a39-78f9" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0a20-7a85-9c86-f509" name="Increased Squad Size" hidden="false">
+                  <description>This unit begins the game with 10 Strength Points, and also increases its Attack Value to 4+ and its Defence Value to 5+. Its Shoot Value remains unchanged. This cannot be combined with Mob.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="dec7-24d2-694d-bf15" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
               </costs>
-            </entryLink>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
             <entryLink id="a941-f9ed-b9d1-f06d" name="Mobile" hidden="false" collective="false" import="true" targetId="bd21-3d32-8148-2f5f" type="selectionEntry"/>
             <entryLink id="5825-8645-0c6c-db98" name="Undisciplined" hidden="false" collective="false" import="true" targetId="e73a-e997-3baf-fbbf" type="selectionEntry"/>
             <entryLink id="0920-aa78-ac35-569a" name="Armoured" hidden="false" collective="false" import="true" targetId="6f77-c74d-d518-841f" type="selectionEntry"/>

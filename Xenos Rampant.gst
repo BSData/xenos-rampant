@@ -503,22 +503,22 @@
             </modifier>
             <modifier type="increment" field="2805-b27f-522c-87c1" value="1">
               <conditions>
-                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d01-c4c2-ff25-7b18" type="equalTo"/>
+                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d01-c4c2-ff25-7b18" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="2805-b27f-522c-87c1" value="2">
               <conditions>
-                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
+                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="decrement" field="858d-a9e9-e9f4-e668" value="1">
               <conditions>
-                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
+                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5445-0a1b-0da7-64f1" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="decrement" field="78a8-86f4-4bb7-848b" value="1">
               <conditions>
-                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5945-69b1-abbf-843e" type="equalTo"/>
+                <condition field="selections" scope="c6bd-10e6-6e99-9dee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5945-69b1-abbf-843e" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="decrement" field="78a8-86f4-4bb7-848b" value="1">

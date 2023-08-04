@@ -671,7 +671,7 @@
             </modifier>
             <modifier type="set" field="f3cf-d493-3494-291a" value="48">
               <conditions>
-                <condition field="selections" scope="1c8c-1137-111e-d9aa" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c564-b75c-1118-147f" type="equalTo"/>
+                <condition field="selections" scope="1c8c-1137-111e-d9aa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c564-b75c-1118-147f" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="decrement" field="78a8-86f4-4bb7-848b" value="1">

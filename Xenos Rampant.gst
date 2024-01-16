@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="5" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://rostercards.pages.dev/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme></readme>
+<gameSystem id="117d-b123-c4c2-f666" name="Xenos Rampant" revision="6" battleScribeVersion="2.03" authorName="@DaeronAlagos" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://rostercards.pages.dev/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7d23-9817-3928-633a" name="Core Rulebook"/>
   </publications>
@@ -245,7 +244,7 @@
           <characteristics>
             <characteristic name="Attack" typeId="6349-d5f3-a4da-ed46">Free (5+)</characteristic>
             <characteristic name="Move" typeId="e7d5-3a07-e8dc-b040">5+</characteristic>
-            <characteristic name="Shoot" typeId="019b-e521-9a72-4cc5">Free (6+)</characteristic>
+            <characteristic name="Shoot" typeId="019b-e521-9a72-4cc5">Free (5+)</characteristic>
             <characteristic name="Courage" typeId="fc53-7100-5462-0ae6">3</characteristic>
             <characteristic name="Armour" typeId="2805-b27f-522c-87c1">4</characteristic>
             <characteristic name="Attack Value" typeId="858d-a9e9-e9f4-e668">4</characteristic>
@@ -1887,7 +1886,7 @@
         <categoryLink id="73f3-ce0e-3b28-418d" name="Options" hidden="false" targetId="49f9-f966-b16c-147a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="1.0"/>
+        <cost name=" Pts" typeId="426d-fcd3-82c9-12c0" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="538c-c619-84a4-f1e1" name="Demolitions" hidden="false" collective="false" import="true" type="upgrade">
